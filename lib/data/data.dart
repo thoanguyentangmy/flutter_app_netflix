@@ -3,13 +3,13 @@ import 'package:flutterappnetflix/models/content_model.dart';
 
 import '../assets.dart';
 
-final Content sintelContent = Content(
-  name: 'Sintel',
-  imageUrl: Assets.sintel,
-  titleImageUrl: Assets.sintelTitle,
-  videoUrl: Assets.sintelVideoUrl,
+final Content bridgertonContent = Content(
+  name: 'bridgerton',
+  imageUrl: Assets.bidgertonPoster,
+  titleImageUrl: Assets.bidgertonTitle,
+  videoUrl: Assets.bidgertonVideoUrl,
   description:
-      'A lonely young woman, Sintel, helps and befriends a dragon,\nwhom she calls Scales. But when he is kidnapped by an adult\ndragon, Sintel decides to embark on a dangerous quest to find\nher lost friend Scales.',
+      'During the Regency era in England, eight close-knit siblings of the powerful Bridgerton family attempt to find love.',
 );
 
 final List<Content> previews = const [
